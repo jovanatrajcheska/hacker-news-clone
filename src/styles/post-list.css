@@ -1,0 +1,56 @@
+.post-list {
+    font-family: Arial, sans-serif;
+}
+
+.loading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post-card {
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-details {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.post-details span {
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
